@@ -13,7 +13,11 @@ fn main() {
     */
     let secret_number = rand::thread_rng().gen_range(1..101);
 
+    let mut counter: i32 = 0;
+
     loop {
+        counter += 1;
+
         println!("請輸入你的猜測數字: ");
 
         let mut guess = String::new(); // mut: mutable
@@ -37,6 +41,7 @@ fn main() {
             Ordering::Greater => println!("太大!"),
             Ordering::Equal => {
                 println!("Bingo!");
+                println!("你花了 {} 次猜中!", counter);
                 break;
             }
         }
