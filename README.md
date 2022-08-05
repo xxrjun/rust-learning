@@ -2,6 +2,16 @@
 
 ## Catalog
 
+| Chapter (with gitbooks link)                                                                                     | Code                                           |
+| ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------- |
+| [1. Getting Started](https://doc.rust-lang.org/stable/book/ch01-00-getting-started.html)                         | [link](./Chapter01_GettingStarted/)            |
+| [2. Programming a Guessing Game](https://doc.rust-lang.org/stable/book/ch02-00-guessing-game-tutorial.html)      | [link](./Chapter02_GuessingGame/)              |
+| [3. Common Programming Concepts](https://doc.rust-lang.org/stable/book/ch03-00-common-programming-concepts.html) | [link](./Chapter03_CommonProgrammingConcepts/) |
+| [4. Understanding Ownership](https://doc.rust-lang.org/stable/book/ch04-00-understanding-ownership.html)         | [link](./Chapter04_Ownership/)                 |
+| [5. Using Structs to Structure Related Data](https://doc.rust-lang.org/stable/book/ch05-00-structs.html)         | [link](./Chapter05_Struct/)                    |
+
+
+
 ## Resources
 
 | Rust Books                                                                                                    |
@@ -12,7 +22,6 @@
 | Rust Videos                                                                                              |
 | -------------------------------------------------------------------------------------------------------- |
 | [Rust 编程语言入门教程 [2021]](https://www.youtube.com/playlist?list=PL3azK8C0kje1DUJbaOqce19j3R_-tIc4_) |
-
 
 ## Editor & Extension
 
